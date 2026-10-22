@@ -10,8 +10,6 @@ def tonum(s):
 x = 0
 for line in sys.stdin:
 <<<<<<< HEAD
-    line = line.rstrip()
-    x += tonum(line)
 =======
      x += tonum(line.rstrip())   #line.rstrip()で末尾の改行を除去
 >>>>>>> 6fb2c2a3ffe28682fa322c25f4727b58c961c1b2
